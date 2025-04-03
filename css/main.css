@@ -19,6 +19,7 @@ body{
         overflow-x: hidden;
         font-size: 14px; /* Smaller font for narrow screens */
         background-color:#c2c273;
+        margin:0;
     }
 }
 /* Medium phones */
@@ -27,6 +28,7 @@ body{
         font-size: 15px; /* Slightly larger font for better readability */
         background-color:#c2c273;
         overflow-x: hidden;
+        margin:0;
        
     }
 }
@@ -36,6 +38,7 @@ body{
         font-size: 16px; /* Default font size */
         background-color:#c2c273;
         overflow-x: hidden;
+        margin:0;
     }
 }
 
@@ -44,6 +47,7 @@ body{
     body {
         font-size: 17px; /* Adjust for larger phones */
         overflow-x: hidden;
+        margin:0;
     }
 }
 
@@ -53,7 +57,7 @@ body{
       body{
         font-size: 16px;
         line-height: 1.6;
-        margin:5px;
+          margin:0;
       }
 
 }
