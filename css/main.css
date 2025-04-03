@@ -285,7 +285,7 @@ body{
         flex-direction:row;
         justify-content:space-around;
         text-align:center;
-        width:100%;
+        width:400px;
         height:80px;
         top:0;
     }
