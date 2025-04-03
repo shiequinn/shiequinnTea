@@ -16,7 +16,7 @@ body{
  /* For mobile phones: */
  @media (max-width: 320px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
         font-size: 14px; /* Smaller font for narrow screens */
         background-color:#c2c273;
     }
@@ -26,6 +26,7 @@ body{
     body {
         font-size: 15px; /* Slightly larger font for better readability */
         background-color:#c2c273;
+        overflow-x: hidden;
        
     }
 }
@@ -34,6 +35,7 @@ body{
     body {
         font-size: 16px; /* Default font size */
         background-color:#c2c273;
+        overflow-x: hidden;
     }
 }
 
@@ -41,6 +43,7 @@ body{
 @media (max-width: 480px) {
     body {
         font-size: 17px; /* Adjust for larger phones */
+        overflow-x: hidden;
     }
 }
 
@@ -269,7 +272,7 @@ body{
 
 }
  /* For mobile phones: */
-@media (min-width : 320px) and (max-width : 414px) {
+ @media only screen and (min-width : 320px) and (max-width : 420px) {
     h1{
         font-size: 25px;
         width:100%;
@@ -282,7 +285,7 @@ body{
         flex-direction:row;
         justify-content:space-around;
         text-align:center;
-        width:100%;
+        width:360px;
         height:80px;
         top:0;
     }
@@ -464,9 +467,9 @@ body{
     color: #ccc;
   }
 
-@media (min-width : 320px) and (max-width : 414px){
+  @media only screen and (min-width : 320px) and (max-width : 420px){
   .intro{
-    width:100%;
+    width:360px;
     height:450px;
     }
     .intro-text{
@@ -599,10 +602,10 @@ body{
     padding:10px;
     
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     .menu-container,
     .menu-food{
-        width:100%;
+        width:360px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -619,7 +622,7 @@ body{
     .menu-container1,
     .menu-container2,
     .menu-container3{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -630,7 +633,7 @@ body{
     }
     .menu-container4,
     .menu-container5{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -678,6 +681,9 @@ body{
         flex-direction:column;
         justify-content:start;
         align-items:start;
+    }
+    .container-image{
+        width:100%;
     }
     
 }
@@ -993,14 +999,14 @@ body{
     justify-content:center;
     align-items:center; 
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     .happyHour{
-         width:180px;
+         width:150px;
          top:52%;
          background-color: #c2c273;
      }
      .menu-Bf-combos{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:column;
         justify-content:center;
@@ -1008,7 +1014,7 @@ body{
         margin-left: 0; 
     }
     .food-combos{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:row;
         justify-content:start;
@@ -1145,9 +1151,9 @@ body{
     background:#535329;
     color: #ccc;
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     .shop-container{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1155,7 +1161,7 @@ body{
         
     }
     .shop-item{
-        width:100%;
+        width:320px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1350,9 +1356,9 @@ body{
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
- @media (min-width : 320px) and (max-width : 414px){
+  @media only screen and (min-width : 320px) and (max-width : 420px){
     .about{
-        width:100%;
+        width:360px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1544,9 +1550,9 @@ body{
     font-weight: bold;
     margin-top: 15px;
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     .review-container{
-        width:100%;
+        width:360px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1731,9 +1737,9 @@ footer button{
     background-color:#333;
     color:#ccc;
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     footer{
-        width:100%;
+        width:360px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1814,11 +1820,11 @@ footer button{
 .show {
     display: block; /* Show the modal */
 }
-@media (min-width : 320px) and (max-width : 414px){
+@media only screen and (min-width : 320px) and (max-width : 420px){
     .modal{
         width: 100%; /* Full width */
         height: 100%; /* Full height */
-        left:11%;
+        left:5%;
         top:46%;
         margin: 0; /* 15% from the top and centered */
     }
