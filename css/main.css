@@ -272,7 +272,7 @@ body{
 
 }
  /* For mobile phones: */
- @media only screen and (min-width : 320px) and (max-width : 420px) {
+ @media only screen and (min-width : 320px) and (max-width : 480px) {
     h1{
         font-size: 25px;
         width:100%;
@@ -285,7 +285,7 @@ body{
         flex-direction:row;
         justify-content:space-around;
         text-align:center;
-        width:420px;
+        width:480px;
         height:80px;
         top:0;
     }
@@ -467,9 +467,9 @@ body{
     color: #ccc;
   }
 
-  @media only screen and (min-width : 320px) and (max-width : 420px){
+  @media only screen and (min-width : 320px) and (max-width : 480px){
   .intro{
-    width:420px;
+    width:480px;
     height:450px;
     }
     .intro-text{
@@ -602,10 +602,10 @@ body{
     padding:10px;
     
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .menu-container,
     .menu-food{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -622,7 +622,7 @@ body{
     .menu-container1,
     .menu-container2,
     .menu-container3{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -633,7 +633,7 @@ body{
     }
     .menu-container4,
     .menu-container5{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -999,14 +999,14 @@ body{
     justify-content:center;
     align-items:center; 
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .happyHour{
          width:150px;
          top:52%;
          background-color: #c2c273;
      }
      .menu-Bf-combos{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:center;
@@ -1014,7 +1014,7 @@ body{
         margin-left: 0; 
     }
     .food-combos{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:row;
         justify-content:start;
@@ -1151,9 +1151,9 @@ body{
     background:#535329;
     color: #ccc;
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .shop-container{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1161,7 +1161,7 @@ body{
         
     }
     .shop-item{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1356,9 +1356,9 @@ body{
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
-  @media only screen and (min-width : 320px) and (max-width : 420px){
+  @media only screen and (min-width : 320px) and (max-width : 480px){
     .about{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1550,9 +1550,9 @@ body{
     font-weight: bold;
     margin-top: 15px;
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .review-container{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1737,9 +1737,9 @@ footer button{
     background-color:#333;
     color:#ccc;
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     footer{
-        width:420px;
+        width:480px;
         height:100%;
         flex-direction:column;
         justify-content:start;
@@ -1820,7 +1820,7 @@ footer button{
 .show {
     display: block; /* Show the modal */
 }
-@media only screen and (min-width : 320px) and (max-width : 420px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     .modal{
         width: 100%; /* Full width */
         height: 100%; /* Full height */
