@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" >
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+    <link rel="stylesheet" href="./css/shop.css">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script> <!--Replace YOUR_CLIENT_ID with your PayPal client ID-->
+    <title>Check out form</title>
+</head>
+<body>
+    <div class="backToHome">
+        <a href="./index.cart.html">Back to Cart</a>
+    </div>
+    <div class="checkout">
+        <img src="./image/cart3.jpg" alt="Background Image">
+        <div class="checkout-container">
+            <div class="cart-header">
+                <h1>Checkout</h1>
+            </div>
+            <form id="checkoutForm">
+                    <h3>Shipping Information</h3>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Shipping Address</label>
+                        <input type="text" id="address" name="address" required placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" required placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" required placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" name="zip" required placeholder="">
+                    </div>
+            
+                <h3>Select Payment Method</h3>
+                <div class="payment-options">
+                    <div class="icon" onclick="selectPaymentMethod('credit-card')">
+                        <i class="fas fa-credit-card"></i>
+                        <p>Credit Card</p>
+                    </div>
+                    <div class="icon" onclick="selectPaymentMethod('alipay')">
+                        <i class="fab fa-alipay"></i>
+                        <p>Alipay</p>
+                    </div>
+                    <div class="icon" onclick="selectPaymentMethod('gcash')">
+                        <img width="25" height="25" src="https://img.icons8.com/plasticine/100/gcash.png" alt="GCash">
+                        <p>GCash</p>
+                    </div>
+                </div>
+            
+                <!-- Credit Card Fields -->
+                <div id="creditCardFields" class="payment-fields hidden">
+                    <h3>Credit Card Information</h3>
+                        <div class="form-group">
+                            <label for="creditCard">Credit Card Number</label>
+                            <input type="text" id="creditCard" name="creditCard" required placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="expiration">Expiration Date (MM/YY)</label>
+                            <input type="text" id="expiration" name="expiration" required placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" required placeholder="">
+                        </div>
+            
+                </div>
+            
+                <!-- Alipay Fields -->
+                <div id="alipayFields" class="payment-fields hidden">
+                    <p>Redirecting to Alipay for payment...</p>
+                </div>
+            
+                <!-- GCash Fields -->
+                <div id="gcashFields" class="payment-fields hidden">
+                    <p>Redirecting to GCash for payment...</p>
+                </div>
+            
+                <button type="submit">Pay Now</button>
+                
+            </form>
+            
+            <!-- Modal for Confirmation -->
+            <div id="confirmationModal" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div id="order-details"></div>
+                    <button id="continueShopping" onclick="continueShopping()">Continue Shopping</button>
+                </div>
+            </div>
+
+</div>
+</div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text">
+                <p><b>SHIEQUINN TEA</b></p>
+                <p><b><i>Let's Keep in touch!</i></b></p>
+                <p>Sign up with your email address to receive news and updates.</p>
+                <a class="button" id="sign-up" href="index.signUp.html">Email<i class="fa fa-arrow-right"></i></a>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <p><b><i>QUICK LINKS</i></b></p>
+                <a href="./index.menu.html" title="Menu">Menu</a>
+                <a href="./index.shop.html" title="Shop">Shop</a>
+                <a href="./index.aboutUs.html" title="About Us">About Us</a>
+                <a href="./index.subscribe.html" title="Subscribe">Subscribe</a>
+                <a href="./index.logIn.html" title="Log In">Log In</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SHIEQUINN WEBDEV CO. All Rights Reserved.</p>
+           </div>
+    </footer>
+            
+      <!--footer area-->
+    
+    
+<script src="./js/checkout.js"></script>
+</body>
+</html>

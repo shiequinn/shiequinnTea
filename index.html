@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+    <link rel="stylesheet" href="./css/main.css">
+    <title>shiequinn Tea House</title>
+</head>
+<body>
+
+<!--header area-->
+  <nav class="navbar">
+    <div class="title">
+        <h1>SHIEQUINN TEA</h1>
+    </div>
+  <hr>
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="./index.menu.html">MENU</a></li>
+        <li class="nav-item"><a href="./index.shop.html">SHOP</a></li>
+        <li class="nav-item"><a href="./index.aboutUs.html">ABOUT US</a></li>
+        <li class="nav-item"><a href="./index.subscribe.html">SUBSCRIBE</a></li>
+        <li class="nav-item"><a href="./index.logIn.html">LOG IN </a></li>
+
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        
+
+    </div>
+    <hr>
+<div class="nav-icon" role="navigation" aria-label="Main navigation">
+
+      <a href="./index.shop.html" id="search-button" title="Seach Products">
+          <i class="fa fa-search"></i>
+      </a>
+
+<div class="profile-container">
+      <button onclick="myFunction()" class="dropbtn" title="User Profile">
+          <i class="fa fa-user"></i>
+      </button>
+  
+      <div id="dropdown" class="dropdown-content">
+        <div class="icons">
+          <img id="profileImage" src="path/to/default/image.jpg" alt="Image">
+          <p id="Greeting">Welcome, <span id="profile-user-name"></span>!</p>
+      </div>
+      <hr>
+    <div class="icons">
+         <i class="fa fa-user-pen" title="profile"></i>
+          <a href="./index.profile.html">MY ACCOUNT</a>
+            </div>
+          
+    <div class="icons">
+          <i class="fa fa-gear" title="settings"></i>
+          <a href="./index.settings&privacy.html">SETTINGS AND PRIVACY</a>
+            </div>
+        
+    <div class="icons">
+          <i class="fa fa-phone" title="Support"></i>
+            <a href="./index.helpAndsupport.html">HELP & SUPPORT</a>
+            </div>
+          <hr>
+    <div class="icons">
+          <i class="fa fa-right-from-bracket" title="Log Out"></i>
+            <a href="./index.logOut.html">LOG OUT</a>
+            </div>
+          
+        </div>
+  </div>
+  
+<a href="./index.cart.html" title="Cart" aria-label="Shopping Cart">
+      <i class="fa fa-shopping-bag"></i>
+      </a>
+  </div>
+</nav>
+
+<!--introduction video-->
+<div class="intro">
+  <video id="myVideo" autoplay loop muted>
+      <source src="./image/commercial.mp4" type="video/mp4">
+     
+  </video>
+  <div class="intro-text">
+      <p>Our tea is made with the finest ingredients and the best quality. We offer a variety of flavors and toppings to choose from.</p>
+      <button id="dineInBtn" onclick="location.href='./index.menu.html'">DINE-IN</button>
+  </div>
+</div>
+
+
+
+<!--menu area-->
+<div id="menu">
+  <h2>OUR MENU</h2>
+</div>
+  <div class="moving-box">This menu is just only for website practice purposes only! credited to the owner</div>
+  
+<div class="menu-container">
+<div class="menu-container1">
+    <div class="menu-item">
+   <div class="menu-flavor">
+      <h3 class="flavors">CLASSIC</h3> 
+    </div>
+    <div class="menu-price">
+      <p>SMALL</p>
+      <p>REG</p>
+      <p>ICED</p>
+  </div>
+  </div>
+  <hr>
+    <div class="menu-item">
+      <div class="menu-flavor">
+      <p>MATCHA LATTE</p>
+      <p>Matcha,Milk</p>
+      </div>
+      <div class="menu-price">
+      <p>42</p>
+      <p>50</p>
+      <p>55</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-flavor">
+      <p>HOJICHA LATTE</p>
+      <p>Hojicha, Milk</p>
+      </div>
+      <div class="menu-price">
+      <p>42</p>
+      <p>50</p>
+      <p>55</p>
+      </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-flavor">
+      <p>MATCHACANO</p>      
+      <p>Matcha , Water</p>
+      </div>
+      <div class="menu-price">
+      <p>38</p>
+      <p>45</p>
+      <p>50</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-flavor">
+      <p>HAND WHISKED MATCHA</p>
+      <p>served in a chawan</p>
+      </div>
+      <div class="menu-price">
+      <p></p>
+      <p>80</p>
+      <p></p>
+      </div>
+      </div>
+<div class="menu-specialty">
+<div class="menu-item2">
+  <div class="menu-flavor">
+    <h3 class="flavors">SPECIALTY</h3>
+    </div>
+    <div class="menu-price"> 
+      <p></p>  
+      <p>HOT</p>
+      <p>ICED</p> 
+      </div>  
+      </div>
+  <div class="menu-item2">
+    <div class="menu-flavor">
+    <p>STRAWBERRY MATCHA LATTE</p>
+    <p>Matcha,Strawberry,Milk</p>
+    </div>
+    <div class="menu-price">  
+      <p></p> 
+    <p></p>
+    <p>60</p> 
+     </div> 
+     </div>
+<div class="menu-item2">
+    <div class="menu-flavor">
+    <p>YUZU LEMONADE MATCHA</p>
+    <p>Matcha,Yuzu Lemonade,Soda</p>
+    </div>
+    <div class="menu-price">  
+      <p></p>  
+    <p></p>
+    <p>55</p> 
+    </div> 
+    </div>
+<div class="menu-item2">
+    <div class="menu-flavor">
+    <p>APPLE HOJICHA COLD BREW</p>
+    <p>Hojicha Cold Brew,Apple</p>
+    </div>
+    <div class="menu-price">   
+      <p></p> 
+    <p></p>
+    <p>55</p> 
+    </div> 
+    </div>
+    <div class="menu-item2">
+    <div class="menu-flavor">
+    <p>STARBURTS MATCHA</p>
+    <p>Matcha, Rasberry,Mango,PeaFlower,Milk</p>
+    </div>
+    <div class="menu-price">
+      <p></p> 
+    <p></p>
+    <p>60</p>
+    </div>
+    </div>
+<div class="menu-item2">
+  <div class="menu-flavor">
+    <p>MATCHA CHAI LATTE</p>
+    <p>Matcha, chai, Milk</p>
+    </div>
+    <div class="menu-price">
+      <p></p> 
+    <p>55</p>
+    <p>60</p>
+    </div>
+    </div>
+<div class="menu-item2">
+<div class="menu-flavor">
+<p>RED BEAN MATCHA LATTE</p>
+<p>Matcha, Red Bean, Milk</p>
+</div>
+<div class="menu-price">
+  <p></p> 
+<p>55</p>
+<p>60</p>
+</div>
+</div>
+<div class="menu-item2">
+<div class="menu-flavor">
+<p>GREY LATTE</p>
+<p>Black Sesame, Charcoal, Milk</p>
+</div>
+<div class="menu-price">
+  <p></p> 
+<p>50</p>
+<p>55</p>
+</div>
+ </div>
+</div>
+<div class="container-image">
+  <img src="./image/drinksMenu.jpg" alt="tea">
+</div>
+</div>
+<!--end of menu container1-->
+<!--second menu-->
+<div class="menu-container2">
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <h3 class="flavors">SEASONAL</h3>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p>HOT</p>
+      <p>ICED</p>
+    </div>
+  </div>
+  <hr>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <p>PURPLE LATTE</p>
+      <p>Puple Sweet Potato,Milk</p>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p>50</p>
+      <p>55</p>
+    </div>
+  </div>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <p>TARO CREAM & COCONUT</p>
+      <p>Taro,Milk,Whipped Cream,Coconut Water</p>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p></p>
+      <p>65</p>
+    </div>
+  </div>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <p>BROWN SUGAR BOBA MATCHA LATTE</p>
+      <p>Matcha,Muscovado Syrup,Konjac Pearls,Milk</p>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p></p>
+      <p>65</p>
+    </div>
+  </div>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <p>WHITE CHOCOLATE LATTE</p>
+      <p>Matcha,White Chocolate,Milk</p>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p>55</p>
+      <p>60</p>
+    </div>
+  </div>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <h3 class="flavors">COFFEE</h3>
+    </div>
+    <div class="menu-price">
+      <p>SMALL</p>
+      <p>REG</p>
+      <p>ICED</p>
+    </div>
+  </div>
+  <hr>
+  <div class="menu-item3">
+    <div class="menu-flavor">
+      <p>DIRTY MATCHA</p>
+      <p>Matcha,Espresso,Milk</p>
+    </div>
+    <div class="menu-price">
+      <p>48</p>
+      <p>55</p>
+      <p>60</p>
+     </div>
+     </div>
+      <div class="menu-item3">
+        <div class="menu-flavor">
+        <p>CAPPUCCINO</p>
+        </div>
+        <div class="menu-price">
+          <p>45</p>
+          <p>50</p>
+          <p>50</p>
+         </div>
+         </div>
+         <div class="menu-item3">
+          <div class="menu-flavor">
+          <p>LATTE</p>
+          </div>
+          <div class="menu-price">
+            <p>45</p>
+            <p>50</p>
+            <p>50</p>
+           </div>
+           </div>
+           <div class="menu-item3">
+            <div class="menu-flavor">
+            <p>AMERICANO</p>
+            </div>
+            <div class="menu-price">
+              <p>38</p>
+              <p>42</p>
+              <p>45</p>
+             </div>
+             </div>
+             <div class="add-ons">
+             <div class="menu-item3">
+             <div class="menu-flavor">
+              <h3 class="flavors">HOW SWEET?</h3>
+            </div>
+            <div class="menu-price">
+              <p>No Sweet/</p>
+              <p>Less Sweet/</p>
+              <p>More Sweet/</p>
+              </div>
+              </div>
+              <div class="menu-item3">
+                <div class="menu-flavor">
+                  <h3 class="flavors">SWITCH IT UP</h3>
+            </div>
+          </div>
+          <div class="menu-item3">
+            <div class="menu-flavor">
+            <p>Matcha Shot/Hojicha Shot</p>
+            </div>
+            <div class="menu-price">
+              <p></p>
+              <p></p>
+              <p>+10</p>
+             </div>
+             </div>
+             <div class="menu-item3">
+              <div class="menu-flavor">
+              <p>Espresso Shot</p>
+              </div>
+              <div class="menu-price">
+                <p></p>
+                <p></p>
+                <p>+6</p>
+               </div>
+               </div>
+               <div class="menu-item3">
+                <div class="menu-flavor">
+                <p>Milk:Oat/Almond</p>
+                </div>
+                <div class="menu-price">
+                  <p></p>
+                  <p></p>
+                  <p>+5</p>
+                 </div>
+                 </div>
+                 <div class="menu-item3">
+                  <div class="menu-flavor">
+                  <p>Add Ons:ashagandha/Collagen/Maca</p>
+                  </div>
+                  <div class="menu-price">
+                    <p></p>
+                    <p></p>
+                    <p>+10</p>
+                   </div>
+                   </div>
+                   <div class="menu-item3">
+                    <div class="menu-flavor">
+                    <p>Eco Cup</p>
+                    </div>
+                    <div class="menu-price">
+                      <p></p>
+                      <p></p>
+                      <p>-5</p>
+                     </div>
+                    </div>
+                    </div>
+          <div class="menu-item3">
+          <div class="menu-flavor">
+            <h3 class="flavors">BREWED TEA</h3>
+          </div>
+          <div class="menu-price">
+            <p></p>
+            <p></p>
+            <p>HOT</p>
+          </div>
+          </div>
+          <hr>
+            <div class="menu-item3">
+              <div class="menu-flavor">
+              <p>GENMAICHA</p>
+              </div>
+              <div class="menu-price">
+                <p></p>
+                <p></p>
+                <p>45</p>
+               </div>
+              </div>
+              <div class="menu-item3">
+                <div class="menu-flavor">
+                <p>HOJICHA</p>
+                </div>
+                <div class="menu-price">
+                  <p></p>
+                  <p></p>
+                  <p>45</p>
+                 </div>
+                </div>
+                <div class="menu-item3">
+                  <div class="menu-flavor">
+                  <p>MOROCCAN MINT</p>
+                  </div>
+                  <div class="menu-price">
+                    <p></p>
+                    <p></p>
+                    <p>45</p>
+                   </div>
+                  </div>
+                  <div class="menu-item3">
+                    <div class="menu-flavor">
+                    <p>CAMOMILE</p>
+                    </div>
+                    <div class="menu-price">
+                      <p></p>
+                      <p></p>
+                      <p>60</p>
+                     </div>
+                    </div>
+</div>
+<!--end of menu container2-->
+<!--third menu-->
+
+  <div class="menu-container3">
+    <div class="menu-specialty2">
+      <div class="menu-item4">
+     <div class="menu-flavor">
+        <h3 class="flavors">ICE-CREAM</h3> 
+      </div>
+   </div>
+   <div class="menu-item4">
+    <div class="menu-flavor">
+    <p>VEGAN MATCHA SOFT SERVE</p>
+    </div>
+    <div class="menu-price">
+      <p></p>
+      <p>48</p>
+     </div>
+    </div>
+    <div class="menu-item4">
+      <div class="menu-flavor">
+      <p>AFFOGATO</p>
+      <p>Vegan Matcha Soft Serve,Shot of Espresso/Matcha/Hojicha</p>
+      </div>
+      <div class="menu-price">
+        <p></p>
+        <p>55</p>
+       </div>
+      </div>
+      <div class="menu-item4">
+        <div class="menu-flavor">
+        <p>VEGAN SOFT SERVE SUNDAE</p>
+        <p>Vegan Matcha Soft Serve, Read Bean,Mochi</p>
+        </div>
+        <div class="menu-price">
+          <p></p>
+          <p>65</p>
+         </div>
+        </div>
+        <div class="menu-item4">
+          <div class="menu-flavor">
+          <p>VEGAN CHURRO SOFT SERVE SUNDAE</p>
+          <p>Churro,Vegan Matcha Soft Serve,Matcha Sugar</p>
+          </div>
+          <div class="menu-price">
+            <p></p>
+            <p>75</p>
+           </div>
+          </div>
+          <div class="menu-item4">
+            <div class="menu-flavor">
+            <p>MATCHA LATTE SOFT SERVE FLOAT</p>
+            </div>
+            <div class="menu-price">
+              <p></p>
+              <p>65</p>
+             </div>
+            </div>
+            <div class="menu-item4">
+              <div class="menu-flavor">
+              <p>CHURRO</p>
+              </div>
+              <div class="menu-price">
+                <p></p>
+                <p>+28</p>
+               </div>
+              </div>
+              <div class="menu-item4">
+                <div class="menu-flavor">
+                <p>SAUCES / TOPPINGS</p>
+                <p>Soba Cha(Buckwheat Tea Crunch)/Kinako(Roasted Soybean Flour)</p>
+                </div>
+              <div class="menu-price">
+                  <p></p>
+                  <p>+5</p>
+                 </div>
+                </div>
+                </div> 
+<div class="cocktails">
+              <div class="menu-item4">
+                <div class="menu-flavor">
+                     <h3 class="flavors">COCKTAILS & BEERS</h3> 
+                   </div>
+
+                   <div class="menu-price">
+                    <p></p>
+                    <p>HH</p>
+                   </div>
+                  </div>
+                  <div class="menu-item4">
+                    <div class="menu-flavor">
+                         <p>MATCHA BEER</p> 
+                         <p>Matcha,Yebisu Premium Beer</p>
+                       </div>
+                       <div class="menu-price">
+                        <p>70</p>
+                        <p>55</p>
+                       </div>
+                      </div>
+              <div class="menu-item4">
+              <div class="menu-flavor">
+                             <p>COUSINS IN KYOTO</p> 
+                             <p>Matcha,Gin,Tonic</p>
+                           </div>
+                           <div class="menu-price">
+                            <p>85</p>
+                            <p>65</p>
+                           </div>
+                          </div>
+              <div class="menu-item4">  
+              <div class="menu-flavor">
+                             <p>SPIKED YUZU LEMONADE MATCHA</p> 
+                             <p>Matcha,Yuzu Lemonade,Gin,Soda</p>
+                           </div>
+                           <div class="menu-price">
+                            <p>85</p>
+                            <p>65</p>  
+                            </div>
+                            </div>
+              <div class="menu-item4">
+              <div class="menu-flavor">
+                             <p>JUICY FRUIT</p> 
+                             <p>Sparkling White Peach,Earl Grey,Gin</p>
+                           </div>
+                           <div class="menu-price">
+                            <p>85</p>
+                            <p>65</p>  
+                            </div>
+                            </div> 
+             <div class="menu-item4">
+              <div class="menu-flavor">
+                     <p>DIRTY ESPRESSO MARTINI</p> 
+                    <p>Matcha.Espresso,Khalua,Vodka</p>
+                    </div>
+                    <div class="menu-price">
+                    <p>90</p>
+                    <p>75</p>  
+                    </div>
+                    </div>
+                    </div>
+              <div class="happyHour">
+                  <p>HAPPY HOUR:</p>
+                  <p>MON-FRI 4-7PM</p>
+                  </div>
+              <p>10% DINE IN SURCHARGE</p>
+              </div>
+</div>
+<div class="view-menu">
+  <button id="view-menu" onclick="location.href='./index.menu.html'">View Full Menu</button>
+</div>
+<!--end of menu container-->
+<!--CONTAINER SHOP-->
+<div class="shop">
+  <div class="shop-container">
+    <div class="products">
+      <p id="hot">OUR PICKS</p>
+      <p>Shop Our Go-To Matcha essentials!</p>
+      <button id="view-products" onclick="location.href='./index.shop.html'">View All</button>
+    </div>
+    <div class="shop-item">
+      <img src="./image/matcha.jpg" alt="tea">
+      <p>Matcha - 30g</p>
+      <p>HK $270</p>
+    </div>
+    <div class="shop-item">
+      <img src="./image/hojicha.webp" alt="tea">
+      <p>Hojicha - 60g</p>
+      <p>HK $486</p>
+    </div>
+    <div class="shop-item">
+      <img src="./image/Genmaicha.jpg" alt="tea">
+      <p>Genmaicha - 30g</p>
+      <p>HK $210</p>
+    </div>
+  </div>
+  </div>
+  <!--end of shop container-->
+  <!--ABOUT US-->
+  <div class="about">
+    <div class="about-container">
+      <img src="./image/products.jpg" alt="store">
+    <div class="about-text">
+        <p><b><u>ABOUT US</u></b></p>
+        <p><i><b><u>Shiequinn Tea</u></b> is a modern tea house that offers a variety of matcha and hojicha drinks. We are dedicated to providing the best quality tea and ingredients to our customers. Our tea is sourced from Japan and Taiwan, and we offer a variety of flavors and toppings to choose from. We also offer a selection of vegan and dairy-free options. Our tea is made fresh to order and we use only the finest ingredients. We are committed to providing our customers with the best tea experience possible.</i></p> 
+        <hr>
+        <br>
+       <p><b>VISIT US:</b></p>
+      <p>Hollywood Road, Central, Hong Kong</p>
+      <p><b>OPENING HOURS</b></p>
+      <p>MON-SUN 11AM-9PM</p>
+      </div>
+      <img src="./image/aboutus.jpg" alt="store">
+      </div>
+      </div>
+ <!--end of about container-->
+  <!--customers rating and comment section-->
+  <div class="review-container">
+    <div class="total-reviews">
+        <h2>Shiequinn Tea</h2>
+        Average Rating: <span id="avg-rating"></span>
+    </div>
+    <div class="comment-container"> 
+        <h3>Leave a Review</h3>
+        <div class="rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        </div>
+        <input type="text" id="review-user-name" class="input-field" placeholder="Your Name" required >
+        <input type="email" id="user-email" class="input-field" placeholder="Your Email" required >
+        <textarea class="comment" id="user-comment" placeholder="Leave a comment" required></textarea>
+        <button id="submit-button">Submit</button>
+    </div>
+    <div class="reviews-container">
+        <div id="review-title">
+            <h3>Customer's Reviews</h3>
+        </div>
+        <div class="customer-reviews">
+            <div class="comments-section" id="comments-section">
+                <!-- Customer reviews will be displayed here -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--end of customers rating and comment section-->
+
+<footer>
+  <div class="footer-container">
+      <div class="footer-text">
+          <p><b>SHIEQUINN TEA</b></p>
+          <p><b><i>Let's Keep in touch!</i></b></p>
+          <p>Sign up with your email address to receive news and updates.</p>
+          <a class="button" id="sign-up" href="index.signUp.html">Email<i class="fa fa-arrow-right"></i></a>
+          <div class="footer-icons">
+              <a href="https://www.facebook.com/" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.twitter.com/" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+      </div>
+      <div class="footer-links">
+          <p><b><i>QUICK LINKS</i></b></p>
+          <a href="./index.menu.html" title="Menu">Menu</a>
+          <a href="./index.shop.html" title="Shop">Shop</a>
+          <a href="./index.aboutUs.html" title="About Us">About Us</a>
+          <a href="./index.subscribe.html" title="Subscribe">Subscribe</a>
+          <a href="./index.logIn.html" title="Log In">Log In</a>
+      </div>
+    </div>
+   <div class="footer-bottom">
+    <p>&copy; 2025 SHIEQUINN WEBDEV CO. All Rights Reserved.</p>
+  </div>
+  </footer>
+  <!-- The Modal -->
+  <div id="promotionModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <p><b>GET 10% OFF</b></p>
+        <p>Sign up with your email address to recieve news and updates.</p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

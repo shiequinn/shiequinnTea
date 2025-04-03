@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+    <link rel="stylesheet" href="./css/shop.css">
+    <title>SHOP NOW</title>
+</head>
+<body>
+    <div class="backToHome">
+        <a href="./index.html">Back to Home</a>
+    </div>
+   <div class="shop-header">
+    <h1>SHOP NOW</h1>
+       <div class="intro">
+    <img src="./image/shoppic2.jpg" alt="shop">
+    <div class="shop-text">   
+        <p>WHISK THE MATCHAKI EXPERIENCE IN THE COMFORT OF YOU OWN HOME. HERE YOU'LL FIND ALL THE 
+            ESSENTIALS YOU TO PAIR WITH OUR DELICATE TEA POWDERS FROM UJI ,KYOTO. </p>
+    </div>
+    </div>
+    </div>
+    <div class="cart">
+            <a href="./index.cart.html">My Cart (<span id="cart-count">0</span>)</a>
+    </div>
+  <div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('utensils')">Utensils </button>
+  <button class="btn" onclick="filterSelection('tea')">Tea Products</button>
+  <button class="btn" onclick="filterSelection('sets')">Sets</button>
+ </div>
+
+    <div class="container" id="shopContainer">
+    <div class="filterDiv utensils" data-category="utensil">
+       <img class="shop-item-image" src="./image/chasan.webp" alt="matcha whisk">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha Whisk</span>
+                <span class="shop-item-price"> HKD 120</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="filterDiv utensils" data-category="utensil">
+            <img class="shop-item-image" src="./image/chawan.webp" alt="matcha bowl">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha Bowl</span>
+                <span class="shop-item-price"> HKD 340</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="filterDiv utensils" data-category="utensil">
+            <img class="shop-item-image" src="./image/chashaku.webp" alt="matcha spoon">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha Spoon</span>
+                <span class="shop-item-price">HKD 70</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="filterDiv utensils" data-category="utensil">
+            <img class="shop-item-image" src="./image/sifter1.jpg" alt="matcha bowl">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha Sifter</span>
+                <span class="shop-item-price"> HKD 140</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="filterDiv utensils" data-category="utensil">
+            <img class="shop-item-image" src="./image/whishStand.webp" alt="matcha whisk stand">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha Whisk Stand</span>
+                <span class="shop-item-price"> HKD 160</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="filterDiv tea" data-category="tea">
+            <img src="./image/matcha.jpg" alt="tea">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Matcha - 30g</span>
+            <span class="shop-item-price">HKD 270</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+          <div class="filterDiv tea" data-category="tea">
+            <img src="./image/hojicha.webp" alt="tea">
+            <div class="shop-item-details">
+                <span class="shop-item-title">Hojicha - 60g</span>
+                <span class="shop-item-price">HKD 486</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+          <div class="filterDiv tea" data-category="tea">
+            <img src="./image/Genmaicha.jpg" alt="tea">
+            <div class="shop-item-details">
+            <span class="shop-item-title">Genmaicha - 30g</span>
+            <span class="shop-item-price">HKD 210</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+            </div>
+            <div class="filterDiv tea" data-category="tea">
+                <img src="./image/matchaset3.jpg" alt="tea">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Matcha Starter Set</span>
+                    <span class="shop-item-price">HKD 486</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="filterDiv tea" data-category="tea">
+                    <img src="./image/matchaset4.webp" alt="tea">
+                    <div class="shop-item-details">
+                        <span class="shop-item-title">2 Matcha Flavor with Whisk</span>
+                        <span class="shop-item-price">HKD 486</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>     
+            <div class="filterDiv sets" data-category="set">
+                <img src="./image/set3.jpg" alt="set">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Set of 4</span>
+                <span class="shop-item-price">HKD 390</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="filterDiv sets" data-category="set">
+                <img src="./image/set4.avif" alt="set">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Set of 3</span>
+                <span class="shop-item-price">HKD 280</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="filterDiv sets" data-category="set">
+                <img src="./image/setStand2.webp" alt="set">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">4pcs of Whisk Stand</span>
+                <span class="shop-item-price">HKD 350</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="filterDiv sets" data-category="set">
+                <img src="./image/set5.webp" alt="set">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Complete Set</span>
+                <span class="shop-item-price">HKD 420</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="filterDiv sets" data-category="set">
+                <img src="./image/bowlset.jpg" alt="set">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">7pcs of Bowl Set</span>
+                <span class="shop-item-price">HKD 250 </span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+  
+      <div class="footer-text">
+        <p><b>SHIEQUINN TEA</b></p>
+        <p><b><i>Let's Keep in touch!</i></b></p>
+        <p>Sign up with your email address to recieve news and updates.</p>
+        <a id="sign-up" href="./index.signUp.html" class="button">Email<i class="fa fa-arrow-right"></i></a>
+      <div class="footer-icons">
+        <a href="https://www.facebook.com/" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.twitter.com/" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+       </div>
+      <div class="footer-links">
+        <p><b><i>QUICK LINKS</i></b></p>
+        <a href="./index.menu.html" title="Menu">Menu</a>
+        <a href="./index.shop.html" title="shop">Shop</a>
+        <a href="./index.aboutUs.html" title="contact">About Us</a>
+        <a href="./index.subscribe.html" title="subscribe">Subscribe</a>
+        <a href="./index.logIn.html" title="logIn">Log In</a>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SHIEQUINN WEBDEV CO. All Rights Reserved.</p>
+          </div>
+  <!--footer area-->
+        </footer>
+
+
+<script src="./js/shop.js"></script>    
+
+</body>
+</html>
