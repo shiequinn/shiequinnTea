@@ -7,31 +7,62 @@
     
     
 }
-body{
+html,body{
     background-color:#f1f1d6;    
     color: #6a6a17;
     font-size: 16px;
-    line-height: 1.6;
- 
-}
-@media only screen and (min-width : 320px) and (max-width : 480px){
-    body{
-        font-size: 14px;
-        line-height: 1.4;
-        margin:0;
-        text-align: center;
+    overflow-x: hidden;
+    width: 100%;
     
+} 
+ /* For mobile phones: */
+ @media (max-width: 320px) {
+    body {
+        overflow-x: hidden;
+        font-size: 14px; /* Smaller font for narrow screens */
+        background-color:#c2c273;
+        margin:0;
     }
 }
-@media (min-width: 601px) and (max-width: 900px){
-    body{
+/* Medium phones */
+@media (max-width: 375px) {
+    body {
+        font-size: 15px; /* Slightly larger font for better readability */
+        background-color:#c2c273;
+        overflow-x: hidden;
+        margin:0;
+       
+    }
+}
+/* Large phones */
+@media (max-width: 425px) {
+    body {
+        font-size: 16px; /* Default font size */
+        background-color:#c2c273;
+        overflow-x: hidden;
+        margin:0;
+    }
+}
+
+/* Extra large phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 17px; /* Adjust for larger phones */
+        overflow-x: hidden;
+        margin:0;
+    }
+}
+
+
+/* for tablet devices*/
+@media (min-width: 768px) {
+      body{
         font-size: 16px;
         line-height: 1.6;
-        margin:0;
-        text-align: center;
-    
+          margin:0;
+      }
+
     }
-}
 /* subscribe section */ 
 .subscribe-container{
     max-width:450px;
@@ -415,12 +446,11 @@ footer {
     margin-top: 10px;
     margin-left:180px;
 }
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media (min-width : 320px) and (max-width : 470px){
     .backToHome{
         margin-top: 20px;
         padding:5px;
         font-size: 16px;
-        margin-left: -10px;
 
     }
     .profile,
@@ -435,7 +465,7 @@ footer {
         align-items:center;
         justify-content:center;
         padding:15px;
-        margin-left:-120px;
+        margin-left:-135px;
         margin-top: 40px;
    
     }
@@ -457,6 +487,7 @@ footer {
         margin: 10px;
         display: block;
         margin-left:70px;
+        background-color: #faf8f8;
     }
     #Greeting{
         margin-left: 60px;
@@ -478,6 +509,7 @@ footer {
         margin: 10px;
         display: block;
         margin-left:90px;
+        background-color: #faf8f8;
      
     }
     .helpAndsupport-container,
