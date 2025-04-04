@@ -1829,8 +1829,8 @@ footer button{
     .modal{
         width: 100%; /* Full width */
         height: 100%; /* Full height */
-        left:5%;
-        top:46%;
+        left:18%;
+        top:52%;
         margin: 0; /* 15% from the top and centered */
     }
 }
